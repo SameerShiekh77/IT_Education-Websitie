@@ -1,0 +1,15 @@
+.contact {
+    width: 500px;
+    position: absolute;
+    top: 10em;
+    left: 27em;
+}
+
+.write {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+
+.back {
+    opacity: 0.8;
+}

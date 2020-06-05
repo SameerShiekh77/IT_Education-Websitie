@@ -1,0 +1,22 @@
+@media only screen and (max-width: 576px) {
+    .contact {
+        width: 335px;
+        position: absolute;
+        top: 10em;
+        left: 0em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:768px) {
+    .contact {
+        width: 450px;
+        position: absolute;
+        top: 10em;
+        left: 5em;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px) and (max-width:992px) {} */
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {}

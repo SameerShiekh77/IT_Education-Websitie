@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="phone1.css">
+
+    <title>IT-EDUCATION | Contact Us</title>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="https://www.youtube.com/channel/UCkDDEYdJznnM6dqzGoZ31gA">
+            <img src="images/logo.jpg" width="30" height="30" alt="" loading="lazy">
+        </a>
+        <span class="navbar-brand mb-0 h1">IT EDUCATION</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Topics
+              </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyQBM5wA1U831DSEJDaiJWTP">Python Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hySsEq7-h56SzDMVjlyIyRGI">GIT Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyRMTyRp5842kRxrQbSqILu-">Smart GIT Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyRLzk2akya4V2cxbJk1REN5">PHP Tutorials</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyQj5Fu4dyQIK_YuaILtSEoQ">Computer Tricks</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hySoazC9LDVwhqt9XrfLtso8">PIAIC Videos</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        <button data-toggle="modal" data-target="#SignupModal" type="button" class="btn btn-danger mx-2">Signup</button>
+        <button data-toggle="modal" data-target="#LoginModal" type="button" class="btn btn-danger mx-2">Login</button>
+    </nav>
+
+    <!-- SIGN UP MODAL -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="SignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignupModalLabel">Create Your Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname ">Full Name</label>
+                            <input type="text" class="form-control" id="fullname">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupemail">Email address</label>
+                            <input type="email" class="form-control" id="signupemail" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="cpassword">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="passwordremember">
+                            <label class="form-check-label" for="passwordremember">Save Your Password</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login Your Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Email1">Email address</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="Check1">
+                            <label class="form-check-label" for="Check1">Remember your password?</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND IMAGE -->
+    <img class="back" src="images/contactus.jpg" width="100%" height="900px" alt="images">
+    <!-- contact us FORM -->
+
+    <form class="contact container justify-content-center align-items-center mt-5">
+
+        <div class="form-group">
+            <label for="fullname " class="text-light write">Full Name</label>
+            <input type="text" class="form-control" id="fullname" placeholder="Programmer">
+        </div>
+        <div class="form-group">
+            <label for="emailaddress" class="text-light write">Email address</label>
+            <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="number" class="text-light write">Contact Number</label>
+            <input type="number" class="form-control" id="number" placeholder="123456489">
+        </div>
+        <div class="form-group">
+            <label for="passion" class="text-light write">What is Your Qualification?</label>
+            <select class="form-control" id="passion">
+            <option>Matric</option>
+            <option>O/A Level</option>
+            <option>Intermediate</option>
+            <option>Graduation</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message" class="text-light write">Your Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+
+        <a href="#"><button type="submit" class="btn btn-primary">Send</button></a>
+    </form>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

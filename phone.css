@@ -1,0 +1,92 @@
+@media only screen and (max-width: 576px) {
+    .welcome {
+        position: absolute;
+        top: 9em;
+        left: 2em;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+    .para {
+        position: absolute;
+        top: 28em;
+        left: 5em;
+        width: 50%;
+        color: darkslategrey;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-size: 60px; */
+    }
+    .lastrow {
+        position: relative;
+        left: 0em;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:768px) {
+    .welcome {
+        position: absolute;
+        top: 4em;
+        left: 2em;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+    }
+    .para {
+        position: absolute;
+        top: 28em;
+        left: 5em;
+        width: 50%;
+        color: darkslategrey;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-size: 60px; */
+    }
+    .lastrow {
+        position: relative;
+        left: 0em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .welcome {
+        position: absolute;
+        top: 4em;
+        left: 2em;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 72px;
+    }
+    .para {
+        position: absolute;
+        top: 28em;
+        left: 16em;
+        width: 50%;
+        color: darkslategrey;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-size: 60px; */
+    }
+    .lastrow {
+        position: relative;
+        left: 0em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .welcome {
+        position: absolute;
+        top: 5em;
+        left: 2em;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 72px;
+    }
+    .para {
+        position: absolute;
+        top: 20em;
+        left: 5em;
+        width: 50%;
+        font-size: 37px;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-size: 60px; */
+    }
+}

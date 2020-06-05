@@ -1,0 +1,38 @@
+.welcome {
+    position: absolute;
+    top: 6em;
+    left: 5em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+}
+
+.para {
+    position: absolute;
+    top: 23em;
+    left: 19em;
+    width: 21em;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 60px; */
+}
+
+.welcomelogo {
+    opacity: 0.8;
+}
+
+.lastrow {
+    position: relative;
+    left: 8em;
+}
+
+.our {
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.meet {
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+}

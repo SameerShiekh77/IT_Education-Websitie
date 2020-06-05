@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="phone.css">
+
+    <title>IT-EDUCATION | About Us</title>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="https://www.youtube.com/channel/UCkDDEYdJznnM6dqzGoZ31gA">
+            <img src="images/logo.jpg" width="30" height="30" alt="" loading="lazy">
+        </a>
+        <span class="navbar-brand mb-0 h1">IT EDUCATION</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="about.html">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Topics
+              </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyQBM5wA1U831DSEJDaiJWTP">Python Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hySsEq7-h56SzDMVjlyIyRGI">GIT Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyRMTyRp5842kRxrQbSqILu-">Smart GIT Tutorials</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyRLzk2akya4V2cxbJk1REN5">PHP Tutorials</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hyQj5Fu4dyQIK_YuaILtSEoQ">Computer Tricks</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLOY4XgpY3hySoazC9LDVwhqt9XrfLtso8">PIAIC Videos</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        <button data-toggle="modal" data-target="#SignupModal" type="button" class="btn btn-danger mx-2">Signup</button>
+        <button data-toggle="modal" data-target="#LoginModal" type="button" class="btn btn-danger mx-2">Login</button>
+    </nav>
+
+    <!-- SIGN UP MODAL -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" role="dialog" aria-labelledby="SignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignupModalLabel">Create Your Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname ">Full Name</label>
+                            <input type="text" class="form-control" id="fullname">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupemail">Email address</label>
+                            <input type="email" class="form-control" id="signupemail" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="cpassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="cpassword">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="passwordremember">
+                            <label class="form-check-label" for="passwordremember">Save Your Password</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Login Your Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Email1">Email address</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="Check1">
+                            <label class="form-check-label" for="Check1">Remember your password?</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WELCOME COVER -->
+    <img class="welcomelogo" src="images/welcome.jpg" alt="image" width="100%" height="1100px">
+    <h1 class="welcome">Welcome To IT Education</h1>
+    <h4 class="para">Education is the passport to the future, for tomorrow belongs to those who prepare for it today. We created this Channel to provide basic to advance Education of IT realted Latest Softwares
+    </h4>
+
+    <!-- OUR TEAM -->
+    <h1 class="d-flex justify-content-center text-items-center text-align-center our mt-2">OUR TEAMS</h1>
+    <h4 class="d-flex justify-content-center text-items-center text-align-center meet my-2">Meet the team members</h4>
+    <div class="row  ml-5">
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/sam.jpg" alt="image">
+            <h2>Muhammad Sameer</h2>
+            <p>Python, C Programmer, Web Developer</p>
+            <!-- Scrollable modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    View Details
+  </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">About Mr. Sameer (Leader)</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body">
+                            Sameer is the leader of our team. He watch everything about his Youtube Channel and he is best in Python Programming. He is now learing of Artificial Intelligence (AI) from PIAIC. He is also doing BSCS from Federal Urdu University of Arts, Science and
+                            Technology (FUUAST). He is also learing Web Mobile App Development from Saylani. He is teach nine to inter students of Math, Physics and Computer Subjects. I hope you like my work and go to visit my Youtube channel.. "IT EDUCATION".
+                            Thanks
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/azhar.jpg" alt="image">
+            <h2>Muhammad Azhar</h2>
+            <p>Expert In Linux OS and GIT function</p>
+            <!-- Scrollable modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop2">
+                View Details
+              </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">About Mr. Azhar (Partner)</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                        </div>
+                        <div class="modal-body">
+                            Azhar is the partner of our team. He upload and edit our all videos and he is best in Linux.He is also doing BSCS from Sindh Madrressatul Islam University (SMIU). He is now learing of Artificial Intelligence (AI) from PIAIC. I hope you like my work and
+                            go to visit my Youtube channel.. "IT EDUCATION". Thanks
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/emad.jpg" alt="image">
+            <h2>Emad Akbar</h2>
+            <p>Software Engineer</p>
+            <!-- Scrollable modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop3">
+                View Details
+              </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop3" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">About Mr. Emad (Partner)</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                        </div>
+                        <div class="modal-body">
+                            Emad is the partner of our team.He is best in any Programming Language.He is now learing of Artificial Intelligence (AI) from PIAIC.He is also doing Software Engineering from Aptech.I hope you like my work and go to visit my Youtube channel.. "IT EDUCATION".
+                            Thanks
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
